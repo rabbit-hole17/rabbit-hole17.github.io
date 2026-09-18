@@ -10,3 +10,8 @@
 .search input,.status-filters button,.topic-filters button,.node-list button,.source-card strong,.related-button,.outline-button{font-size:14px}
 .detail-section>p,.detail .claim{font-size:16px}
 @media(max-width:600px){.status-filters button,.topic-filters button,.outline-button{font-size:12px}.graph-node text{font-size:12px}.overview .graph-node.knowledge:not(.selected) text{display:none}.map-note{font-size:11px}.graph-footer{font-size:11px}.graph-heading .eyebrow{font-size:11px}}
+
+.header-actions{display:flex;align-items:center;justify-content:flex-end;flex-wrap:wrap;gap:8px;margin-left:auto;min-width:0}.header-actions .data-link{margin-left:0;white-space:nowrap}
+@media(max-width:600px){.header{height:auto;min-height:70px;flex-wrap:wrap;padding:12px 16px}}
+
+@media(min-width:601px) and (max-width:1180px){.header-title{display:none}}
