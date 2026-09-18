@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#0d121b">
+  <meta name="description" content="rabbit-hole 토끼굴 — 확인된 지식과 검증자료, 원문과 출처를 연결해 탐색하는 지식 그래프">
+  <title>rabbit-hole · 토끼굴</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="./style.css">
+  <script src="./app.js" type="module"></script>
+</head>
+<body>
+  <a class="skip" href="#detail">상세 내용으로 이동</a>
+  <header class="header">
+    <a class="brand" href="./"><img src="./favicon.svg" alt="" width="34" height="34"><span>rabbit-hole<span class="brand-sub">토끼굴</span></span></a>
+    <div class="header-title">지식의 연결 <span>원문에서 근거까지</span></div>
+    <a class="data-link" href="./data/graph.json" target="_blank" rel="noopener noreferrer">JSON 데이터 <span aria-hidden="true">↗</span></a>
+  </header>
+  <main class="workspace">
+    <aside class="explorer" aria-label="지식 탐색">
+      <div class="eyebrow">EXPLORE THE KNOWLEDGE</div><h1>근거를 따라,<br>지식을 연결하다.</h1>
+      <label class="search"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="지식 · 출처 검색" aria-label="지식 또는 출처 검색"><kbd>/</kbd></label>
+      <div class="verified-summary">
+        <i class="dot verified"></i>확인된 정보 <span id="verified-count">20</span>
+      </div>
+      <h2>주제 <button id="reset-filters" class="text-button">초기화</button></h2>
+      <div id="topics" class="topic-filters"></div>
+      <div class="list-head"><h2>지식 목록</h2><span id="list-count">—</span></div>
+      <div id="node-list" class="node-list" aria-label="그래프와 동일한 지식 목록"></div>
+      <div class="sidebar-foot"><span class="live-dot"></span>검증 기준 <span id="checked-at">—</span></div>
+    </aside>
+    <section class="graph-section" aria-label="지식 연결 그래프">
+      <div class="graph-heading"><div><span class="eyebrow">KNOWLEDGE GRAPH</span><h2>지식 지도 <span id="graph-count">—</span></h2></div><button id="toggle-links" class="outline-button" aria-pressed="false">출처 연결 보기</button></div>
+      <div id="graph-host" class="graph-host">
+        <svg id="graph" aria-label="주제와 지식 노드. 노드를 클릭하거나 Tab과 Enter로 상세 내용을 확인하세요." role="group"><g id="viewport"><g id="edges"></g><g id="nodes"></g></g></svg>
+        <div id="message" class="message" role="status"><span class="spinner"></span>지식 지도를 불러오고 있습니다.</div>
+        <div class="graph-tools" role="group" aria-label="지도 확대와 이동"><button id="zoom-in" aria-label="확대">＋</button><button id="zoom-out" aria-label="축소">−</button><span></span><button id="fit" aria-label="전체 지도 보기">⌖</button></div>
+        <div class="map-note">노드를 눌러 탐색 <span>·</span> 드래그로 이동 <span>·</span> 스크롤로 확대</div>
+      </div>
+      <footer class="graph-footer"><span><i class="line-key"></i>주제 연결 <i class="line-key dashed"></i>공유 출처 · 원문</span><p>연결은 인과관계나 사실성의 보증을 뜻하지 않습니다.</p></footer>
+    </section>
+    <aside id="detail" class="detail" aria-label="선택한 지식의 상세 내용" tabindex="-1"><div class="detail-placeholder">지식 노드를 선택하면<br>검증자료와 출처가 여기에 표시됩니다.</div></aside>
+  </main>
+  <noscript>지식 그래프를 보려면 JavaScript를 활성화하세요. <a href="./data/knowledge.json">지식 JSON 보기</a></noscript>
+</body>
+</html>

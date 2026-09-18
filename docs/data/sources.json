@@ -1,0 +1,1342 @@
+{
+  "schemaVersion": "1.0.0",
+  "items": [
+    {
+      "id": "S01",
+      "title": "백악관 — Launching the Genesis Mission",
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/11/launching-the-genesis-mission/",
+      "type": "행정명령·1차 자료",
+      "publishedAt": "2025-11-24"
+    },
+    {
+      "id": "S02",
+      "title": "TAE — TMTG 합병계약 발표",
+      "url": "https://tae.com/trump-media-and-technology-group-to-merge-with-tae-technologies/",
+      "type": "당사자 발표·1차 자료",
+      "publishedAt": "2025-12-18"
+    },
+    {
+      "id": "S03",
+      "title": "미 해군 — Trump Announces New Class of Battleship",
+      "url": "https://www.navy.mil/Press-Office/Press-Releases/display-pressreleases/Article/4366952/trump-announces-new-class-of-battleship/",
+      "type": "정부 사업 발표·1차 자료",
+      "publishedAt": "2025-12-22"
+    },
+    {
+      "id": "S04",
+      "title": "Lockheed Martin — HELIOS",
+      "url": "https://www.lockheedmartin.com/en-us/news/features/2021/more-than-a-laser-helios-is-an-integrated-weapon-system.html",
+      "type": "제조사 시험 발표·1차 자료",
+      "publishedAt": "2021"
+    },
+    {
+      "id": "S05",
+      "title": "SpaceX — Starshield",
+      "url": "https://new.spacex.com/starshield",
+      "type": "개발사 사업 설명·1차 자료",
+      "publishedAt": "게시일 미확인"
+    },
+    {
+      "id": "S06",
+      "title": "DOE — Burning Plasma",
+      "url": "https://www.energy.gov/science/doe-explainsburning-plasma",
+      "type": "정부 과학 해설",
+      "publishedAt": "게시일 미확인"
+    },
+    {
+      "id": "S07",
+      "title": "IEA — Energy and AI: Executive summary",
+      "url": "https://www.iea.org/reports/energy-and-ai/executive-summary",
+      "type": "국제기구 분석·전망",
+      "publishedAt": "2025"
+    },
+    {
+      "id": "S08",
+      "title": "NASA — Lunar Surface Innovation Initiative",
+      "url": "https://www.nasa.gov/space-technology-mission-directorate/lunar-surface-innovation-initiative/",
+      "type": "기관 사업 설명·1차 자료",
+      "publishedAt": "게시일 미확인"
+    },
+    {
+      "id": "S09",
+      "title": "NASA — In-Situ Resource Utilization",
+      "url": "https://www.nasa.gov/overview-in-situ-resource-utilization/",
+      "type": "기관 사업 설명·1차 자료",
+      "publishedAt": "게시일 미확인"
+    },
+    {
+      "id": "S10",
+      "title": "NASA — Flexible Levitation on a Track",
+      "url": "https://www.nasa.gov/directorates/stmd/niac/niac-studies/flexible-levitation-on-a-track-float/",
+      "type": "NIAC 연구 제안·1차 자료",
+      "publishedAt": "2024"
+    },
+    {
+      "id": "S14",
+      "title": "NOAA — Space Weather Scales",
+      "url": "https://www.spaceweather.gov/noaa-scales-explanation",
+      "type": "기관 척도·1차 자료",
+      "publishedAt": "게시일 미확인"
+    },
+    {
+      "id": "S16",
+      "title": "GAO — Operation Warp Speed, GAO-21-319",
+      "url": "https://www.gao.gov/products/gao-21-319",
+      "type": "정부 감사·조사 보고서",
+      "publishedAt": "2021-02-11"
+    },
+    {
+      "id": "S20",
+      "title": "NIH — Stem Cell Basics",
+      "url": "https://stemcells.nih.gov/node/16",
+      "type": "정부 의생명과학 해설",
+      "publishedAt": "게시일 미확인"
+    },
+    {
+      "id": "S23",
+      "title": "Neuralink — PRIME Study Progress Update",
+      "url": "https://neuralink.com/updates/prime-study-progress-update/",
+      "type": "임상시험 개발사 발표·1차 자료",
+      "publishedAt": "2024"
+    },
+    {
+      "id": "S24",
+      "title": "영국 ICO — 23andMe 조사·과징금",
+      "url": "https://ico.org.uk/about-the-ico/media-centre/news-and-blogs/2025/06/23andme-fined-for-failing-to-protect-uk-users-genetic-data/",
+      "type": "규제기관 조사 발표",
+      "publishedAt": "2025-06-17"
+    },
+    {
+      "id": "S25",
+      "title": "캐나다 OPC — 23andMe 조사 성명",
+      "url": "https://www.priv.gc.ca/en/opc-news/speeches-and-statements/2025/s-d_250617/",
+      "type": "규제기관 조사 발표",
+      "publishedAt": "2025-06-17"
+    },
+    {
+      "id": "S26",
+      "title": "백악관 — 국제기구 탈퇴 지시 각서",
+      "url": "https://www.whitehouse.gov/presidential-actions/2026/01/withdrawing-the-united-states-from-international-organizations-conventions-and-treaties-that-are-contrary-to-the-interests-of-the-united-states/",
+      "type": "대통령 각서·1차 자료",
+      "publishedAt": "2026-01-07"
+    },
+    {
+      "id": "S27",
+      "title": "영국 하원 도서관 — Balfour Declaration",
+      "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-7766/",
+      "type": "의회 역사·정책 해설",
+      "publishedAt": "2016"
+    },
+    {
+      "id": "S28",
+      "title": "루브르 — The Code of Hammurabi",
+      "url": "https://www.louvre.fr/en/the-code-of-hammurabi",
+      "type": "소장기관 유물 해설",
+      "publishedAt": "게시일 미확인"
+    },
+    {
+      "id": "S30",
+      "title": "USCCB — 누가복음 3장",
+      "url": "https://bible.usccb.org/bible/luke/3",
+      "type": "성경 본문·문헌 1차 자료",
+      "publishedAt": "게시일 미확인"
+    },
+    {
+      "id": "S31",
+      "title": "USCCB — 마태복음 1장",
+      "url": "https://bible.usccb.org/bible/matthew/1",
+      "type": "성경 본문·문헌 1차 자료",
+      "publishedAt": "게시일 미확인"
+    },
+    {
+      "id": "S32",
+      "title": "미 육군 군사사센터 — Branch Birthday",
+      "url": "https://history.army.mil/Research/Reference-Topics/Army-Birthdays/Branch-Birthday/",
+      "type": "기관 역사 기록",
+      "publishedAt": "게시일 미확인"
+    },
+    {
+      "id": "S33",
+      "title": "백악관 보존기록 — Flag Day",
+      "url": "https://obamawhitehouse.archives.gov/the-press-office/2011/06/10/presidential-proclamation-flag-day-and-national-flag-week",
+      "type": "대통령 포고문·보존기록",
+      "publishedAt": "2011-06-10"
+    },
+    {
+      "id": "S34",
+      "title": "NASA — Lunar Eclipses 1941–1950",
+      "url": "https://eclipse.gsfc.nasa.gov/LEdecade/LEdecade1941.html",
+      "type": "천문 계산표",
+      "publishedAt": "게시일 미확인"
+    },
+    {
+      "id": "S41",
+      "title": "Rusnano 이사회 보도자료",
+      "url": "https://www.rusnano.com/upload/iblock/003/ofpjy2gti5lt20rq3n3gu7gcricf6nze/2013-02-06_ROSNANO_SD.pdf",
+      "type": "기업 1차 자료",
+      "publishedAt": "2013-02-06"
+    },
+    {
+      "id": "S42",
+      "title": "Rusnano 2016 연차보고서",
+      "url": "https://www.rusnano.com/upload/normativedocs/ROSNANO-AO_Annual_Report_2016_RUS.pdf",
+      "type": "기업 공시",
+      "publishedAt": "2016년 기준"
+    },
+    {
+      "id": "S46",
+      "title": "미중 경제·무역 합의 팩트시트",
+      "url": "https://www.whitehouse.gov/fact-sheets/2025/11/fact-sheet-president-donald-j-trump-strikes-deal-on-economic-and-trade-relations-with-china/",
+      "type": "정부 발표",
+      "publishedAt": "2025-11"
+    },
+    {
+      "id": "S55",
+      "title": "MH370 operational search reports",
+      "url": "https://www.atsb.gov.au/mh370-operational-search-reports",
+      "type": "호주 교통안전국 보고서 모음",
+      "publishedAt": "2014–2017 조사"
+    },
+    {
+      "id": "S66",
+      "title": "We Are The Only Bank That Women Own",
+      "url": "https://www.edmond-de-rothschild.com/en/news/show/1092-3526-we-are-the-only-bank-that-women-own",
+      "type": "기업 홈페이지 게재 인터뷰",
+      "publishedAt": "2022"
+    },
+    {
+      "id": "S67",
+      "title": "CIA Museum: Helms Letter",
+      "url": "https://www.cia.gov/legacy/museum/artifact/helms-letter/",
+      "type": "소장기관 유물 설명·전사",
+      "publishedAt": "1945년 편지"
+    },
+    {
+      "id": "S68",
+      "title": "G4 Levels Reached 19 Jan 2026",
+      "url": "https://swpc-drupal.woc.noaa.gov/news/g4-severe-geomagnetic-storm-levels-reached-19-jan-2026",
+      "type": "NOAA 관측 발표",
+      "publishedAt": "2026-01-19 20:09 UTC"
+    },
+    {
+      "id": "S69",
+      "title": "S4 Solar Radiation Storm January 19 2026",
+      "url": "https://swpc-drupal.woc.noaa.gov/news/s4-severe-solar-radiation-storm-progress-january-19th-2026",
+      "type": "NOAA 관측 발표",
+      "publishedAt": "2026-01-19"
+    },
+    {
+      "id": "S70",
+      "title": "NASA January 2026 Skywatching Tips",
+      "url": "https://science.nasa.gov/solar-system/skywatching/whats-up-january-2026-skywatching-tips-from-nasa/",
+      "type": "NASA 천문 안내",
+      "publishedAt": "2026-01"
+    },
+    {
+      "id": "S71",
+      "title": "Winter Storm January 23–26 2026",
+      "url": "https://www.weather.gov/fwd/january2026",
+      "type": "NWS 기상 관측·사후 정리",
+      "publishedAt": "2026-01 사건"
+    },
+    {
+      "id": "S72",
+      "title": "First Presidential Radio Broadcast Marks 100 Year Anniversary",
+      "url": "https://hardingpresidentialsites.org/2022/05/29/first-presidential-radio-broadcast-marks-100-year-anniversary/",
+      "type": "대통령 사적지 역사 연구",
+      "publishedAt": "2022-05-29"
+    },
+    {
+      "id": "S74",
+      "title": "UN Security Council verbatim record, 20 June 2007",
+      "url": "https://www.un.org/unispal/document/auto-insert-189947/",
+      "type": "유엔 회의록·검색 본문 확인",
+      "publishedAt": "2007-06-20"
+    },
+    {
+      "id": "S76",
+      "title": "LLNL achieves fusion ignition",
+      "url": "https://www.llnl.gov/article/49306/lawrence-livermore-national-laboratory-achieves-fusion-ignition",
+      "type": "연구기관 실험 발표",
+      "publishedAt": "2022-12-13"
+    },
+    {
+      "id": "S78",
+      "title": "EMA의 Vaxzevria 희귀 혈전·혈소판 감소 평가",
+      "url": "https://www.ema.europa.eu/en/news/astrazenecas-covid-19-vaccine-ema-finds-possible-link-very-rare-cases-unusual-blood-clots-low-blood-platelets",
+      "type": "의약품 규제기관 평가",
+      "publishedAt": "2021-04-07"
+    },
+    {
+      "id": "S80",
+      "title": "Schøyen Collection MS 2064",
+      "url": "https://www.schoyencollection.com/law/sumerian/ur-nammu-ms-2064",
+      "type": "소장기관 법전 유물 해설",
+      "publishedAt": "기원전 2095–2047년으로 분류"
+    },
+    {
+      "id": "S81",
+      "title": "Yale Avalon: Code of Hammurabi",
+      "url": "https://avalon.law.yale.edu/ancient/hamcode.asp",
+      "type": "고대 법문 영어 번역",
+      "publishedAt": "L. W. King 번역"
+    },
+    {
+      "id": "S82",
+      "title": "Complete human day 14 post-implantation embryo models from naive ES cells",
+      "url": "https://www.nature.com/articles/s41586-023-06604-5",
+      "type": "원저 논문·검색 색인 본문 확인",
+      "publishedAt": "2023;622:562–573"
+    },
+    {
+      "id": "S85",
+      "title": "George H. W. Bush Library — Marriage and Yale, 가족 결혼식 기록",
+      "url": "https://www.bush41library.gov/flyboy-goldenboy-marriage-and-yale",
+      "type": "대통령도서관 소장 사진 설명·본문 열람",
+      "publishedAt": "사진 1945-01-06"
+    },
+    {
+      "id": "S89",
+      "title": "Charlier 외 — The remains of Adolf Hitler: A biomedical analysis and definitive identification",
+      "url": "https://www.researchgate.net/profile/Philippe-Charlier/publication/325220862_The_remains_of_Adolf_Hitler_A_biomedical_analysis_and_definitive_identification/links/5b03cd5eaca2720ba099588b/The-remains-of-Adolf-Hitler-A-biomedical-analysis-and-definitive-identification.pdf?origin=publication_detail",
+      "type": "원저자 프로필의 논문 PDF·본문 3쪽 열람; 별도 부록 미확보",
+      "publishedAt": "2018; DOI 10.1016/j.ejim.2018.05.014"
+    },
+    {
+      "id": "S91",
+      "title": "Rockefeller Archive Center — John D. Rockefeller, 1839–1937",
+      "url": "https://rockarch.org/resources/about-the-rockefellers/john-d-rockefeller-sr/",
+      "type": "가문 기록보관기관 약력·본문 열람",
+      "publishedAt": "열람 2026-09-17"
+    },
+    {
+      "id": "S94",
+      "title": "이스라엘 대통령실 — Isaac Herzog 가족 약력",
+      "url": "https://www.president.gov.il/en/president/",
+      "type": "당사자 기관 가족 약력·본문 열람",
+      "publishedAt": "열람 2026-09-17"
+    },
+    {
+      "id": "S100",
+      "title": "서울신문 — 우리법연구회 60명 명단공개",
+      "url": "https://www.seoul.co.kr/news/society/2010/05/26/20100526014017",
+      "type": "2010년 공개 명단을 전재한 보도·본문 대조; 논문집 원본 미확보",
+      "publishedAt": "2010-05-26"
+    },
+    {
+      "id": "S101",
+      "title": "로이슈 — 개혁성향 판사모임 우리법연구회 회원 공개",
+      "url": "https://www.lawissue.co.kr/view.php?ud=201005261809310009174_12",
+      "type": "2010년 공개 명단 보도·본문 교차 대조; 논문집 원본 미확보",
+      "publishedAt": "2010-05-26"
+    },
+    {
+      "id": "S102",
+      "title": "미국 상원 — Project MKULTRA 공동 청문회 및 조사 부록",
+      "url": "https://www.intelligence.senate.gov/wp-content/uploads/2024/08/sites-default-files-hearings-95mkultra.pdf",
+      "type": "상원 공식 청문회·CIA 국장 증언·조사 부록 1차 자료; 해당 부분 본문 대조",
+      "publishedAt": "1977-08-03"
+    },
+    {
+      "id": "S103",
+      "title": "[총정리] 워마드는 어떻게 '여자 일베'가 됐나",
+      "url": "https://v.daum.net/v/20180710134218276",
+      "type": "언론 연표",
+      "publishedAt": "2018-07-10"
+    },
+    {
+      "id": "S104",
+      "title": "마지막 '혜화역 시위'…성 편파 수사 규탄, 그 발단과 논란",
+      "url": "https://www.newsis.com/view/NISX20181221_0000510056",
+      "type": "뉴시스 보도",
+      "publishedAt": "2018-12-22"
+    },
+    {
+      "id": "S105",
+      "title": "우리는 워마드가 아니다",
+      "url": "https://weekly.donga.com/coverstory/article/all/11/1395022/1",
+      "type": "주간동아 보도·주최 측 입장 인용",
+      "publishedAt": "2018-07-24"
+    },
+    {
+      "id": "S106",
+      "title": "메갈리안 해고 논란? 이건 여성혐오의 문제가 아닙니다",
+      "url": "https://v.daum.net/v/20160725085556112",
+      "type": "미디어오늘 기고·논평 인용",
+      "publishedAt": "2016-07-25"
+    },
+    {
+      "id": "S107",
+      "title": "신지예 \"'재기해' 구호에 동의 안 해..분노에는 연대할 것\"",
+      "url": "https://www.newspim.com/news/view/20180713000483",
+      "type": "뉴스핌 보도·당사자 해명 인용",
+      "publishedAt": "2018-07-13"
+    },
+    {
+      "id": "S108",
+      "title": "진선미 \"'메갈' 미러링 없었다면 소라넷 폐지되지 않았다\"",
+      "url": "https://v.daum.net/v/20181129173811655",
+      "type": "한국일보 보도·라디오 발언 인용",
+      "publishedAt": "2018-11-29"
+    },
+    {
+      "id": "S109",
+      "title": "노회찬 \"메갈리아 논란, 이 자체가 성차별 해소 과정\"",
+      "url": "https://www.pressian.com/pages/articles/139645",
+      "type": "프레시안 보도·라디오 발언 인용",
+      "publishedAt": "2016-08-01"
+    },
+    {
+      "id": "S110",
+      "title": "[총선 GO!] '메갈 논란'에 입 연 장혜영 \"그런데 n번방은요?\"",
+      "url": "https://www.newspim.com/news/view/20200327000435",
+      "type": "뉴스핌 직접 인터뷰",
+      "publishedAt": "2020-03-27 (수정 2020-04-13)"
+    },
+    {
+      "id": "S111",
+      "title": "코리아보드게임즈 파트너스 · 공식 사업자 정보",
+      "url": "https://www.kbgb2b.com/",
+      "type": "기업 공식 사이트",
+      "publishedAt": "게시일 미표기 · 2026-09-17 확인"
+    },
+    {
+      "id": "S112",
+      "title": "용혜인이 걸어온 길",
+      "url": "https://yonghyein.kr/biography",
+      "type": "의원 공식 약력",
+      "publishedAt": "게시일 미표기 · 2026-09-17 확인"
+    },
+    {
+      "id": "S113",
+      "title": "노동당, 20~30대 청년 대표단 선출",
+      "url": "https://www.lawissue.co.kr/view.php?ud=2019012715291471829a8c8bf58f_12",
+      "type": "로이슈 · 당시 당 발표 보도",
+      "publishedAt": "2019-01-27"
+    },
+    {
+      "id": "S114",
+      "title": "노동당 진상조사위원회 보고서 · 당원게시판 보존본",
+      "url": "https://archive.md/vPPBs",
+      "type": "정당 자체 조사보고서 · 웹 보존본",
+      "publishedAt": "2018-07-04 (게시 2018-07-05)"
+    },
+    {
+      "id": "S115",
+      "title": "[일문일답] 45분 항변한 용혜인 “언론, 검증 아닌 폭력…이성 찾길”",
+      "url": "https://v.daum.net/v/20260910183607332",
+      "type": "시사저널 · 기자회견 일문일답",
+      "publishedAt": "2026-09-10"
+    },
+    {
+      "id": "S116",
+      "title": "'언더조직' 인정한 용혜인, 8년 전엔 \"알지 못한다\" 외면",
+      "url": "https://v.daum.net/v/9lybFDx2Xc",
+      "type": "프레시안 · 당사자 반론 인터뷰",
+      "publishedAt": "2026-09-11"
+    },
+    {
+      "id": "S117",
+      "title": "한중의원연맹 창립 · 가입 신청자 명단",
+      "url": "https://nsp.nanet.go.kr/trend/latest/detail.do?latestTrendControlNo=TREN0000000577&listChk=list",
+      "type": "국회도서관 국가전략포털 · 국회 자료",
+      "publishedAt": "2022-12-02"
+    },
+    {
+      "id": "S118",
+      "title": "한중의원연맹 공식 출범…회장 홍영표·부회장 김학용",
+      "url": "https://www.newspim.com/news/view/20221202000838",
+      "type": "뉴스핌 · 창립총회 보도",
+      "publishedAt": "2022-12-02"
+    },
+    {
+      "id": "S119",
+      "title": "싱하이밍 대사, 제22대 국회 한중의원연맹 개원총회 참석",
+      "url": "https://kr.china-embassy.gov.cn/kor/sgxx/202407/t20240725_11460168.htm",
+      "type": "주한중국대사관 · 행사 기록",
+      "publishedAt": "2024-07-10"
+    },
+    {
+      "id": "S120",
+      "title": "한중의원연맹 방중, 전인대 측과 회담",
+      "url": "https://www.yna.co.kr/amp/view/AKR20240918027200001",
+      "type": "연합뉴스 · 지도부 및 활동 보도",
+      "publishedAt": "2024-09-18"
+    },
+    {
+      "id": "S121",
+      "title": "[단독] 친중파 논란 속 '한중의원연맹 2기' 출범…여야 102명 참여",
+      "url": "https://www.jayupress.com/news/articleView.html?idxno=31925",
+      "type": "자유일보 · 외부 단체 제공 명단 보도",
+      "publishedAt": "2024-07-25 (수정 2024-07-29)"
+    },
+    {
+      "id": "S122",
+      "title": "내란음모 사건 대법원 판결 보도자료",
+      "url": "https://scourt.go.kr/portal/news/NewsViewAction.work?gubun=6&seqnum=987",
+      "type": "대법원 공식 보도자료",
+      "publishedAt": "2015-01-28"
+    },
+    {
+      "id": "S123",
+      "title": "2013헌다1 통합진보당 해산 청구 사건",
+      "url": "https://ccourt.go.kr/site/kor/ex/bbs/View.do?bcIdx=941691&cbIdx=1106",
+      "type": "헌법재판소 주요판례",
+      "publishedAt": "2014-12-19 결정"
+    },
+    {
+      "id": "S124",
+      "title": "[전문] 희망2013·승리2012원탁회의 성명",
+      "url": "https://www.newspim.com/news/view/20121025001151",
+      "type": "뉴스핌 · 성명 전문",
+      "publishedAt": "2012-10-25"
+    },
+    {
+      "id": "S125",
+      "title": "제19대 문재인 · 약력",
+      "url": "https://www.pa.go.kr/online_contents/president/history19.jsp",
+      "type": "대통령기록관",
+      "publishedAt": "게시일 미표기"
+    },
+    {
+      "id": "S126",
+      "title": "역대 서울시장 컬렉션",
+      "url": "https://archives.seoul.go.kr/class/CC-0001",
+      "type": "서울기록원",
+      "publishedAt": "게시일 미표기"
+    },
+    {
+      "id": "S127",
+      "title": "박지원 · 국회의원 상세정보",
+      "url": "https://watch.peoplepower21.org/Member?member_seq=587",
+      "type": "참여연대 열려라국회 · 공적 경력 정리",
+      "publishedAt": "게시일 미표기"
+    },
+    {
+      "id": "S128",
+      "title": "통일부 역대장관",
+      "url": "https://unikorea.go.kr/web/minister/contents/introduce_pastminister/",
+      "type": "통일부 공식 기록",
+      "publishedAt": "게시일 미표기"
+    },
+    {
+      "id": "S129",
+      "title": "전국민주노동조합총연맹 규약",
+      "url": "https://nodong.org/rule",
+      "type": "민주노총 공식 규약",
+      "publishedAt": "1995-11-11 제정 · 이후 개정"
+    },
+    {
+      "id": "S130",
+      "title": "민주사회를 위한 변호사 모임(민변) 창립",
+      "url": "https://archives.kdemo.or.kr/collections/view/10000083",
+      "type": "민주화운동기념사업회 사료 컬렉션",
+      "publishedAt": "게시일 미표기"
+    },
+    {
+      "id": "S131",
+      "title": "김정은 칭송·윤소하 협박 소포·美대사관저 점거농성…대진연은 어떤 단체?",
+      "url": "https://www.segye.com/newsView/20191025503868",
+      "type": "세계일보 · 단체 취재 보도",
+      "publishedAt": "2019-10-25"
+    },
+    {
+      "id": "S132",
+      "title": "여대생 연합 노래동아리 늘해랑 신입회원 모집",
+      "url": "https://www.contestkorea.com/sub/view.php?Txt_bcode=040210001&Txt_gbn=2&str_no=202110280038",
+      "type": "콘테스트코리아 · 늘해랑 명의 모집 공고",
+      "publishedAt": "2021년 모집 공고"
+    },
+    {
+      "id": "S133",
+      "title": "대진연, 이번엔 촛불 하나 조직 결성…윤석열 사퇴, 검찰개혁 주장",
+      "url": "https://news.nate.com/view/20191122n20907",
+      "type": "조선일보 · 네이트 전재 보도",
+      "publishedAt": "2019-11-22"
+    },
+    {
+      "id": "S134",
+      "title": "촛불행동 · 166차 촛불대행진 안내",
+      "url": "https://pf.kakao.com/_hdVxlxj/113556740",
+      "type": "촛불행동 공식 카카오톡 채널 · 행사 공지",
+      "publishedAt": "2025-11-22 행사 안내"
+    },
+    {
+      "id": "S135",
+      "title": "촛불행동 1년…윤석열 퇴진·김건희 특검 끝까지 간다",
+      "url": "https://www.mindlenews.com/news/articleView.html?idxno=2695",
+      "type": "시민언론 민들레 · 단체 활동 보도",
+      "publishedAt": "2023년"
+    },
+    {
+      "id": "S136",
+      "title": "전국농민회총연맹 - 한국민족문화대백과사전",
+      "url": "https://encykorea.aks.ac.kr/Article/E0068407",
+      "type": "한국학중앙연구원 한국민족문화대백과사전",
+      "publishedAt": "2023-02-07 최종수정"
+    },
+    {
+      "id": "S137",
+      "title": "시설수용에 저항한 탈시설장애인 김진수, 마로니에 공원에 잠들다",
+      "url": "https://sadd.or.kr/data/?bmode=view&idx=57165199",
+      "type": "전국장애인차별철폐연대 공식 보도자료",
+      "publishedAt": "2024-08-05"
+    },
+    {
+      "id": "S138",
+      "title": "장애투쟁 현장엔 언제나 전장연이 있었다",
+      "url": "https://dongguwc.or.kr/info/1481?page=137&sca=%EB%B3%B5%EC%A7%80%EB%89%B4%EC%8A%A4",
+      "type": "광주광역시동구장애인복지관 · 에이블뉴스 기사 전재",
+      "publishedAt": "2017년 · 출범 10주년 보도"
+    },
+    {
+      "id": "S139",
+      "title": "국내거주 외국인 등에 대한 자치구·시·군의 의회의원 및 장의 선거권 부여에 관한 특별법안 · 제172132호",
+      "url": "https://opinion.lawmaking.go.kr/gcom/nsmLmSts/out/172132/detailRP",
+      "type": "법제처 국민참여입법센터 · 국회입법현황",
+      "publishedAt": "2005-06-28 발의 · 2008-05-29 임기만료폐기"
+    },
+    {
+      "id": "S140",
+      "title": "정문헌 의원 보도자료 · 외국인·난민에게 지방선거 투표권 준다",
+      "url": "https://www.peoplepowerparty.kr/news/comment_view/BBSDD0002/39172",
+      "type": "당시 한나라당 보도자료 · 국민의힘 홈페이지 보존",
+      "publishedAt": "2005-06-29"
+    },
+    {
+      "id": "S141",
+      "title": "공직선거및선거부정방지법 일부개정법률안 · 의안번호 2169",
+      "url": "https://archives.nanet.go.kr/upload/namo/files/000027/172169_100.HWP.pdf",
+      "type": "국회기록보존소 · 정치개혁특별위원장 제안 의안 원문",
+      "publishedAt": "2005-06-29"
+    },
+    {
+      "id": "S142",
+      "title": "제254회 국회 제6차 정치개혁특별위원회 회의록",
+      "url": "https://archives.nanet.go.kr/upload/namo/files/000027/국회회의록_17대_254회_6차_정치개혁특별위원회.pdf",
+      "type": "국회 공식 회의록 · 15~16쪽 외국인 선거권 논의",
+      "publishedAt": "2005-06-24"
+    },
+    {
+      "id": "S143",
+      "title": "공직선거및선거부정방지법 일부개정법률안 · 2005.6.30 국회 본회의 통과",
+      "url": "https://gjgc.or.kr/hyh9/board/2/52/read/6",
+      "type": "광주광역시 광산구의회 · 법률안 게시 자료",
+      "publishedAt": "2005-07-20"
+    },
+    {
+      "id": "S144",
+      "title": "제250회 국회 제1차 정치개혁특별위원회 회의록",
+      "url": "https://archives.nanet.go.kr/upload/namo/files/000027/국회회의록_17대_250회_1차_정치개혁특별위원회.pdf",
+      "type": "국회 공식 회의록 · 위원장 및 교섭단체별 위원 선임",
+      "publishedAt": "2004-09-14"
+    },
+    {
+      "id": "S145",
+      "title": "우리의 발자취, 대통령 · 정당 연혁",
+      "url": "https://idp.theminjoo.kr/main/sub/introduce/history.php",
+      "type": "더불어민주당 공식 정당 연혁",
+      "publishedAt": "게시일 미표기"
+    },
+    {
+      "id": "S146",
+      "title": "종로구의회, 2026년 신년인사회 개최",
+      "url": "https://council.jongno.go.kr/council/bbs/BBSMSTR_000000000524/view.do?applyCode=&categoryId=&delCode=&dept=&deptId=&dong=&edate=&gubun=&menuNo=&nttId=244161&pageIndex=1&petiGubun=&popupYn=&sdate=&searchCnd=&searchWrd=&useAt=&viewType=",
+      "type": "종로구의회 공식 보도자료 · 정문헌의 당시 직책 확인",
+      "publishedAt": "2026-01-12"
+    },
+    {
+      "id": "S147",
+      "title": "윤미향 사건 · 대법원 2023도13648 판결문 공개",
+      "url": "https://www.scourt.go.kr/portal/news/NewsViewAction.work?gubun=2&seqnum=5526",
+      "type": "대법원 언론보도판결 · 판결문 첨부 게시",
+      "publishedAt": "2024-11-14"
+    },
+    {
+      "id": "S148",
+      "title": "대법, 윤미향 유죄 확정…후원금 횡령",
+      "url": "https://news.nate.com/view/20241114n13129",
+      "type": "한겨레 · 네이트 전재 · 확정판결 보도",
+      "publishedAt": "2024-11-14"
+    },
+    {
+      "id": "S149",
+      "title": "위안부 후원금 횡령 윤미향, 징역형 집행유예 확정",
+      "url": "https://www.segye.com/newsView/20241114510674",
+      "type": "세계일보 · 확정판결 및 혐의별 판단 보도",
+      "publishedAt": "2024-11-14"
+    },
+    {
+      "id": "S150",
+      "title": "2025년 광복절 특별사면 실시",
+      "url": "https://mojhome.moj.go.kr/bbs/moj/182/484109/download.do",
+      "type": "법무부 공식 보도자료 · 7쪽 주요 대상자 및 사면 유형",
+      "publishedAt": "2025-08-11"
+    },
+    {
+      "id": "S151",
+      "title": "2025년 8·15 특별사면·감형·복권 현황",
+      "url": "https://www.yna.co.kr/view/AKR20250811124800004",
+      "type": "연합뉴스 · 사면 대상 및 유형 정리",
+      "publishedAt": "2025-08-11"
+    },
+    {
+      "id": "S152",
+      "title": "국회 토론회서 북 전쟁관 수용 시민단체 이사장 검찰 송치",
+      "url": "https://www.yna.co.kr/view/AKR20240703028500004",
+      "type": "연합뉴스 · 발언자 및 수사 단계 보도",
+      "publishedAt": "2024-07-03"
+    },
+    {
+      "id": "S154",
+      "title": "경찰, 조총련 행사 참석 윤미향 국보법 위반 무혐의 불송치",
+      "url": "https://www.yna.co.kr/amp/view/AKR20251112090100004",
+      "type": "연합뉴스 · 경찰 불송치 결정 보도",
+      "publishedAt": "2025-11-12"
+    },
+    {
+      "id": "S155",
+      "title": "현직 부장판사, 회식 중 쓰러져 사망…경찰, 부검 예정",
+      "url": "https://www.newsis.com/view/NISX20201111_0001229758",
+      "type": "뉴시스 · 당시 경찰 취재 보도",
+      "publishedAt": "2020-11-11"
+    },
+    {
+      "id": "S156",
+      "title": "윤미향 사건 기록 방대해…첫 재판 11월 말로 연기",
+      "url": "https://www.donga.com/news/Politics/article/all/20201006/103262196/2",
+      "type": "동아일보 · 공판준비기일 변경 보도",
+      "publishedAt": "2020-10-06"
+    },
+    {
+      "id": "S157",
+      "title": "엘리트 판사 80여명 줄사표 법원 쇼크",
+      "url": "https://v.daum.net/v/20210121035656896?x_trkm=t",
+      "type": "조선일보 · 다음 전재 · 사직 규모 취재 및 원인 분석",
+      "publishedAt": "2021-01-21"
+    },
+    {
+      "id": "S158",
+      "title": "대법원, 지방법원 부장판사 이하 인사 실시",
+      "url": "https://www.scourt.go.kr/portal/news/NewsViewAction.work?gubun=6&searchOption=&searchWord=&seqnum=1955",
+      "type": "대법원 공식 인사 보도자료 · 퇴직 별지 첨부",
+      "publishedAt": "2021-02-03"
+    },
+    {
+      "id": "S159",
+      "title": "KHAZARS · Dan Shapira",
+      "url": "https://www.iranicaonline.org/articles/khazars/",
+      "type": "Encyclopaedia Iranica · 역사학 전문 항목",
+      "publishedAt": "2020-12-14"
+    },
+    {
+      "id": "S160",
+      "title": "Are Jews Descended from Khazars?",
+      "url": "https://jewishstudies.washington.edu/video/are-jews-descended-from-khazars/",
+      "type": "워싱턴대학교 Stroum 유대학센터 · Shaul Stampfer 연구 소개",
+      "publishedAt": "2014년"
+    },
+    {
+      "id": "S161",
+      "title": "No Evidence from Genome-Wide Data of a Khazar Origin for the Ashkenazi Jews",
+      "url": "https://digitalcommons.wayne.edu/humbiol/vol85/iss6/9/",
+      "type": "Human Biology 85(6) · Behar 외 · 학술논문 및 초록",
+      "publishedAt": "2013년"
+    },
+    {
+      "id": "S162",
+      "title": "An antisemitic conspiracy theory is being shared on Telegram to justify Russia’s invasion of Ukraine",
+      "url": "https://www.isdglobal.org/digital-dispatch/an-antisemitic-conspiracy-theory-is-being-shared-on-telegram-to-justify-russias-invasion-of-ukraine/",
+      "type": "Institute for Strategic Dialogue · Lea Gerster · 온라인 담론 조사",
+      "publishedAt": "2022-05-05"
+    },
+    {
+      "id": "S164",
+      "title": "Radaniya · Douglas Morton Dunlop",
+      "url": "https://jewishvirtuallibrary.org/jsource/judaica/ejud_0002_0017_0_16320.html",
+      "type": "Encyclopaedia Judaica · Jewish Virtual Library 전재 · 중세 문헌 및 교역로 해설",
+      "publishedAt": "2008년 저작권 표시"
+    },
+    {
+      "id": "S165",
+      "title": "Migration and Enslavement: A Medieval Model · Youval Rotman",
+      "url": "https://brill.com/display/book/9789004425613/BP000018.xml",
+      "type": "Brill · Migration Histories of the Medieval Afroeurasian Transition Zone · 13장 3절 사료 분석",
+      "publishedAt": "2020년"
+    },
+    {
+      "id": "S163",
+      "title": "The Missing Link of Jewish European Ancestry: Contrasting the Rhineland and the Khazarian Hypotheses",
+      "url": "https://academic.oup.com/gbe/article/5/1/61/728117",
+      "type": "Genome Biology and Evolution 5(1) · Eran Elhaik · 학술논문",
+      "publishedAt": "2013년 권호 · 2012-12-14 온라인 발표"
+    },
+    {
+      "id": "S166",
+      "title": "EXILARCH · Isaiah M. Gafni",
+      "url": "https://www.iranicaonline.org/articles/exilarch/",
+      "type": "Encyclopaedia Iranica · 제도사 전문 항목",
+      "publishedAt": "1999-12-15 · 2013-05-06 갱신"
+    },
+    {
+      "id": "S167",
+      "title": "Johanan ben Zakkai",
+      "url": "https://jewishvirtuallibrary.org/jsource/judaica/ejud_0002_0011_0_10216.html",
+      "type": "Encyclopaedia Judaica · Jewish Virtual Library 전재 · 전승의 사료 비판",
+      "publishedAt": "2008년 저작권 표시"
+    },
+    {
+      "id": "S168",
+      "title": "POLIN Museum Core Exhibition Mini Guide · First Encounters",
+      "url": "https://polin.pl/pl/system/files/attachments/museum_polin_core_exhibition_mini_guide.pdf",
+      "type": "폴란드 유대인 역사박물관 POLIN · 공식 전시 안내서 · PDF 4쪽",
+      "publishedAt": "발행일 미표기"
+    },
+    {
+      "id": "S169",
+      "title": "Jabneh",
+      "url": "https://jewishvirtuallibrary.org/jabneh",
+      "type": "Encyclopaedia Judaica · Jewish Virtual Library 전재 · 지리·역사 항목",
+      "publishedAt": "발행일 미표기"
+    },
+    {
+      "id": "S170",
+      "title": "Y a-t-il eu des Rahdānites ? · Claude Cahen",
+      "url": "https://www.persee.fr/doc/rjuiv_0484-8616_1964_num_123_3_1485",
+      "type": "Revue des études juives 123 · pp.499–505 · 공개 첫 페이지의 사료·어원 비판 확인",
+      "publishedAt": "1964년"
+    },
+    {
+      "id": "S171",
+      "title": "A Study on Medieval Jewish Merchants The Radhanites · Harun Yılmaz",
+      "url": "https://dergipark.org.tr/en/download/article-file/4568119",
+      "type": "Ondokuz Mayıs Üniversitesi İlahiyat Fakültesi Dergisi 59 · pp.725–749 · 학술논문 본문",
+      "publishedAt": "2025-12-29"
+    },
+    {
+      "id": "S172",
+      "title": "Legal document: T-S 13J2.5 · PGPID 7959",
+      "url": "https://geniza.princeton.edu/en/documents/7959/",
+      "type": "Princeton Geniza Project · 원문 전사·번역과 동업 정산 해설",
+      "publishedAt": "원문 1095-02-01 · 웹 해설 발행일 미표기"
+    },
+    {
+      "id": "S173",
+      "title": "The Diaspora in the Roman period before CE 70 · E. Mary Smallwood",
+      "url": "https://www.cambridge.org/core/books/abs/cambridge-history-of-judaism/diaspora-in-the-roman-period-before-ce-70/AD1E5333322627A5BD5063DB966A0813",
+      "type": "Cambridge History of Judaism · pp.168–191 · 출판사 공개 장 요약 확인",
+      "publishedAt": "1999년 인쇄 · 2008-03-28 온라인"
+    },
+    {
+      "id": "S174",
+      "title": "Contract Enforcement and Institutions among the Maghribi Traders: Refuting Edwards and Ogilvie · Avner Greif",
+      "url": "https://www.ifo.de/en/cesifo/publications/2008/working-paper/contract-enforcement-and-institutions-among-maghribi-traders",
+      "type": "CESifo Working Paper 2350 · 저자 반론의 공개 초록",
+      "publishedAt": "2008년"
+    },
+    {
+      "id": "S175",
+      "title": "Contract enforcement, institutions, and social capital: the Maghribi traders reappraised · Edwards and Ogilvie",
+      "url": "https://sheilaghogilvie.com/wp-content/uploads/publications/Edwards-Ogilvie-2012-Maghribi-traders-EHR.pdf",
+      "type": "The Economic History Review · 저자 제공 논문",
+      "publishedAt": "2012년"
+    },
+    {
+      "id": "S176",
+      "title": "Genizah Fragments 2 · Friendship between Jews and Muslims · Paul Fenton",
+      "url": "https://wwwe.lib.cam.ac.uk/GF/2/",
+      "type": "Cambridge University Library · 게니자 문서의 종교 간 동업 사례 해설",
+      "publishedAt": "발행일 미표기"
+    },
+    {
+      "id": "S177",
+      "title": "Rationsliste für Gefangene mit Erwähnung des Königs Jojachin von Juda · VAT 16378",
+      "url": "https://search.smb.museum/object/obj-1743721",
+      "type": "베를린 국립박물관 · 고대근동박물관 공식 소장품 설명",
+      "publishedAt": "기원전 6세기 유물 · 2026-07-29 설명 갱신"
+    },
+    {
+      "id": "S178",
+      "title": "2 Kings 25 · 시드기야와 여호야긴",
+      "url": "https://bible.usccb.org/bible/2kings/25",
+      "type": "USCCB · 성경 본문 및 주석 · 1~7, 27~30절",
+      "publishedAt": "웹 발행일 미표기"
+    },
+    {
+      "id": "S179",
+      "title": "1 Kings 6 · 성전 건축",
+      "url": "https://bible.usccb.org/bible/1kings/6",
+      "type": "USCCB · 성경 본문 및 주석 · 1, 19, 37~38절",
+      "publishedAt": "웹 발행일 미표기"
+    },
+    {
+      "id": "S180",
+      "title": "1 Kings 11:3 · 솔로몬의 아내와 후궁",
+      "url": "https://bible.usccb.org/bible/1kings/11",
+      "type": "USCCB · 성경 본문 · 검색 색인에서 해당 절 확인",
+      "publishedAt": "웹 발행일 미표기"
+    },
+    {
+      "id": "S181",
+      "title": "Introduction to Avodah Zarah · William Davidson Talmud",
+      "url": "https://www.sefaria.org/Avodah_Zarah.68a.3-5?with=Introductions+to+the+Babylonian+Talmud",
+      "type": "Sefaria · Koren–Steinsaltz 탈무드 서론 · 우상숭배 관련 법규 설명",
+      "publishedAt": "웹 발행일 미표기"
+    },
+    {
+      "id": "S182",
+      "title": "Gittin 68b · 솔로몬과 아슈메다이 전승",
+      "url": "https://www.sefaria.org/Gittin.68b",
+      "type": "Sefaria · William Davidson Talmud · 본문 검색 색인 대조",
+      "publishedAt": "웹 발행일 미표기"
+    },
+    {
+      "id": "S183",
+      "title": "TALMUD, PERSIAN ELEMENTS IN · Jacob Neusner",
+      "url": "https://www.iranicaonline.org/articles/talmud-persian-elements-in-2/",
+      "type": "Encyclopaedia Iranica · 문헌·문화사 전문 항목",
+      "publishedAt": "2005-07-20 · 2013-01-17 갱신"
+    },
+    {
+      "id": "S184",
+      "title": "TALMUD ii. RABBINIC LITERATURE and MIDDLE PERSIAN TEXTS · Yaakov Elman",
+      "url": "https://www.iranicaonline.org/articles/talmud-ii/",
+      "type": "Encyclopaedia Iranica · 랍비 문헌과 중세 페르시아어 문헌 비교 연구",
+      "publishedAt": "웹 발행일 미확인"
+    },
+    {
+      "id": "S185",
+      "title": "ZERUBBABEL · Emil G. Hirsch, J. F. McLaughlin",
+      "url": "https://www.jewishencyclopedia.com/articles/15251-zerubbabel",
+      "type": "Jewish Encyclopedia · 이름·관직·동일성 논의",
+      "publishedAt": "1901~1906년 간행"
+    },
+    {
+      "id": "S186",
+      "title": "Who was Sheshbazzar? · Jason Silverman",
+      "url": "https://blogs.helsinki.fi/sacredtexts/2015/09/09/who-was-sheshbazzar/",
+      "type": "헬싱키대학교 · 연구자 본인의 학술논문 요약",
+      "publishedAt": "2015-09-09"
+    },
+    {
+      "id": "S187",
+      "title": "1 Chronicles 3 · 스룹바벨 계보",
+      "url": "https://bible.usccb.org/bible/1chronicles/3",
+      "type": "USCCB · 성경 본문 17~24절 및 19절 주석",
+      "publishedAt": "웹 발행일 미표기"
+    },
+    {
+      "id": "S188",
+      "title": "Judeans in Babylonia · Chapter 5: Judeans in the Murašû Archive · Tero Alstola",
+      "url": "https://tile.loc.gov/storage-services/master/gdc/gdcebookspublic/20/19/04/46/34/2019044634/2019044634.pdf",
+      "type": "Brill 학술 연구서 · 미국 의회도서관 공개본 · 164~167쪽",
+      "publishedAt": "2020년"
+    },
+    {
+      "id": "S189",
+      "title": "Ezra 6 · 성전 완공과 봉헌",
+      "url": "https://www.newadvent.org/bible/ezr006.htm",
+      "type": "New Advent · 성경 본문 14~18절 대조",
+      "publishedAt": "웹 발행일 미표기"
+    },
+    {
+      "id": "S190",
+      "title": "JUDEO-PERSIAN COMMUNITIES ii. ACHAEMENID PERIOD",
+      "url": "https://www.iranicaonline.org/articles/judeo-persian-communities-ii-achaemenid-period/",
+      "type": "Encyclopaedia Iranica · 아케메네스 시대 유대 공동체 역사 해설",
+      "publishedAt": "웹 발행일 미확인"
+    },
+    {
+      "id": "S191",
+      "title": "Adrenochrome · CID 5898",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/compound/adrenochrome",
+      "type": "NIH/NLM PubChem · 화학물질 데이터베이스",
+      "publishedAt": "2026-09-05 갱신"
+    },
+    {
+      "id": "S192",
+      "title": "Blood · SEER Glossary for Registrars",
+      "url": "https://seer.cancer.gov/seertools/glossary/view/54ac2835e4b0d965833ce0f4/",
+      "type": "미국 NCI · 혈장·혈청 정의",
+      "publishedAt": "1995년 매뉴얼 기반 · 웹 갱신일 미표기"
+    },
+    {
+      "id": "S193",
+      "title": "Chemically defined conditions for human iPSC derivation and culture · Chen et al.",
+      "url": "https://www.nature.com/articles/nmeth.1593",
+      "type": "Nature Methods 8, 424–429 · 원저 논문 공개 초록",
+      "publishedAt": "2011-04-10"
+    },
+    {
+      "id": "S194",
+      "title": "ATCC Stem Cell Culture Guide",
+      "url": "https://www.atcc.org/resources/culture-guides/stem-cell-culture-guide",
+      "type": "ATCC · 세포 자원기관 공식 배양 안내",
+      "publishedAt": "웹 발행일 미표기"
+    },
+    {
+      "id": "S195",
+      "title": "Telomere · NHGRI",
+      "url": "https://www.genome.gov/genetics-glossary/Telomere",
+      "type": "미국 국립인간게놈연구소 · 유전학 용어 해설",
+      "publishedAt": "웹 발행일 미표기"
+    },
+    {
+      "id": "S196",
+      "title": "Hyperactivation of sympathetic nerves drives depletion of melanocyte stem cells · Zhang et al.",
+      "url": "https://www.nature.com/articles/s41586-020-1935-3",
+      "type": "Nature 577, 676–681 · 생쥐 실험 원저 논문",
+      "publishedAt": "2020-01-22"
+    },
+    {
+      "id": "S197",
+      "title": "Important Information about Young Donor Plasma Infusions for Profit",
+      "url": "https://www.fda.gov/vaccines-blood-biologics/safety-availability-biologics/important-information-about-young-donor-plasma-infusions-profit",
+      "type": "미국 FDA · 젊은 기증자 혈장 주입 관련 공식 안내",
+      "publishedAt": "2019-02-19"
+    },
+    {
+      "id": "S198",
+      "title": "Safety, Tolerability, and Feasibility of Young Plasma Infusion in the Plasma for Alzheimer Symptom Amelioration Study: A Randomized Clinical Trial",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30383097/",
+      "type": "JAMA Neurology · 임상시험 원저 · PubMed 검색 색인 초록 확인",
+      "publishedAt": "2018년 온라인 발표"
+    },
+    {
+      "id": "S199",
+      "title": "대법원 2025도8823 국가보안법위반(간첩)등 사건 보도자료",
+      "url": "https://www.scourt.go.kr/portal/news/NewsViewAction.work?gubun=6&searchOption=&searchWord=&seqnum=2863",
+      "type": "대법원 공식 보도자료 · 검색 색인 본문에서 유·무죄 확정 범위 확인",
+      "publishedAt": "2025-09-25"
+    },
+    {
+      "id": "S200",
+      "title": "간첩 혐의 前 민주노총 간부, 징역 9년6개월 확정",
+      "url": "https://www.newspim.com/news/view/20250925000452",
+      "type": "뉴스핌 · 대법원 선고 및 피고인별 형량 보도",
+      "publishedAt": "2025-09-25"
+    },
+    {
+      "id": "S201",
+      "title": "북한 지령에 ㅎㄱㅎ 결성했다…검찰, 제주간첩단 사건 3명 기소",
+      "url": "https://www.hankookilbo.com/news/article/amp/A2023040515270000537",
+      "type": "한국일보 · 제주지검 기소 발표 보도 · 유죄 확정 자료 아님",
+      "publishedAt": "2023-04-05"
+    },
+    {
+      "id": "S202",
+      "title": "자통민중전위 국가보안법위반 사건 중간 수사 결과",
+      "url": "https://www.spo.go.kr/common/board/Download.do?bcIdx=1035887&cbIdx=1403&streFileNm=74d4b280-ebfa-4e7d-8903-59c85192fa84.pdf",
+      "type": "서울중앙지검 공식 보도자료 · 검색 색인 확인 · 공소사실은 미확정",
+      "publishedAt": "2023-03-15"
+    },
+    {
+      "id": "S203",
+      "title": "창원 간첩단 기피신청 6개월 만에 최종 기각…재판 재개",
+      "url": "https://www.kmib.co.kr/article/view.asp?arcid=0019864678",
+      "type": "국민일보 · 기소 인원 및 절차 결정 보도",
+      "publishedAt": "2024-03-06"
+    },
+    {
+      "id": "S204",
+      "title": "국보법 위반 충북동지회 위원장 징역 2년 확정 · 2024도17383",
+      "url": "https://www.scourt.go.kr/portal/news/NewsViewAction.work?gubun=2&searchOption=&searchWord=&seqnum=5658",
+      "type": "대법원 언론보도판결 · 사건번호 및 판결문 게시 확인",
+      "publishedAt": "2025-03-17"
+    },
+    {
+      "id": "S205",
+      "title": "국가보안법 위반 충북동지회 활동가 징역 5년 확정 · 2025도10741",
+      "url": "https://www.scourt.go.kr/portal/news/NewsViewAction.work?gubun=2&seqnum=5865",
+      "type": "대법원 언론보도판결 · 사건번호 및 판결문 게시 확인",
+      "publishedAt": "2025-09-12"
+    },
+    {
+      "id": "S206",
+      "title": "국보법 위반 충북동지회 활동가 징역 5년 확정…기소 4년만",
+      "url": "https://www.yna.co.kr/view/AKR20250911086051004",
+      "type": "연합뉴스 · 확정판결 및 간첩·범죄단체조직 등 무죄 범위 보도",
+      "publishedAt": "2025-09-11"
+    },
+    {
+      "id": "S207",
+      "title": "北지령 받고 활동…청주간첩단은 왜 범죄단체가 아닐까",
+      "url": "https://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=03726086642102992",
+      "type": "이데일리 · 확정판결의 유·무죄 죄명 구분 보도",
+      "publishedAt": "2025-03-13"
+    },
+    {
+      "id": "S208",
+      "title": "하연호 전북민중행동 대표, 국가보안법 위반 징역 2년 확정 · 2025도13006",
+      "url": "https://www.scourt.go.kr/portal/news/NewsViewAction.work?gubun=2&searchOption=&searchWord=&seqnum=5973",
+      "type": "대법원 언론보도판결 · 사건번호 및 확정판결 게시 확인",
+      "publishedAt": "2025-12-26"
+    },
+    {
+      "id": "S209",
+      "title": "北공작원 회합 하연호 전북민중행동 대표 징역 2년 확정",
+      "url": "https://www.yna.co.kr/view/AKR20251224063000004",
+      "type": "연합뉴스 · 대법원 선고 및 일부 유·무죄 판단 보도",
+      "publishedAt": "2025-12-24"
+    },
+    {
+      "id": "S210",
+      "title": "28시간 대치끝 남태령 넘어…관저 앞까지 트랙터 진출 집회",
+      "url": "https://www.yna.co.kr/view/AKR20241222044000004",
+      "type": "연합뉴스 · 현장 취재와 행진 경위",
+      "publishedAt": "2024-12-22"
+    },
+    {
+      "id": "S211",
+      "title": "현장 · 농민과 연대한 시민들의 손에 들린 것",
+      "url": "https://www.sisain.co.kr/news/articleView.html?idxno=54687",
+      "type": "시사IN · 전봉준투쟁단 구성·현장 보도 · 검색 색인 확인",
+      "publishedAt": "2024년 12월"
+    },
+    {
+      "id": "S212",
+      "title": "광주전남 농민단체 통일트랙터 北전달 추진…자주통일 실현",
+      "url": "https://www.yna.co.kr/view/AKR20190417116300054",
+      "type": "연합뉴스 · 운동본부 모금·구매 발표 보도",
+      "publishedAt": "2019-04-17"
+    },
+    {
+      "id": "S213",
+      "title": "北 보낸다는 트랙터 27대…全農, 열흘 넘게 임진각 방치",
+      "url": "https://www.chosun.com/site/data/html_dir/2019/05/08/2019050800078.html",
+      "type": "조선일보 · 2019년 임진각 차량 현장 보도",
+      "publishedAt": "2019-05-08"
+    },
+    {
+      "id": "S214",
+      "title": "TYM · 대통령 관저 앞 시위 동원 트랙터 출처 관련 관계자 인용 보도",
+      "url": "https://www.pennmike.com/news/articleView.html?idxno=92269",
+      "type": "펜앤마이크 · 제조사 관계자 인용 기사 · 검색 색인 본문 확인 · 소유권 원장 아님",
+      "publishedAt": "2024-12-24"
+    },
+    {
+      "id": "S215",
+      "title": "안성시의회 제8대 2023년도 행정사무감사특별위원회 제5차 회의록",
+      "url": "https://www.anseongcl.go.kr/viewer/minutes.do?uid=23355",
+      "type": "안성시의회 공식 회의록 · 통일트랙터 지원 관련 답변 검색 색인 확인",
+      "publishedAt": "2023년"
+    },
+    {
+      "id": "S216",
+      "title": "안성시의회 제7대 제180회 예산결산특별위원회 제3차 회의록",
+      "url": "https://anseongcl.go.kr/viewer/minutes.do?uid=22645",
+      "type": "안성시의회 공식 회의록 · 지원사업 예산 계상 설명 검색 색인 확인",
+      "publishedAt": "2019년"
+    },
+    {
+      "id": "S217",
+      "title": "Israeli army cancels controversial Hannibal Protocol",
+      "url": "https://www.timesofisrael.com/idf-chief-puts-an-end-to-contentious-hannibal-protocol/",
+      "type": "Times of Israel · 군 대변인 인용 보도",
+      "publishedAt": "2016-06-28"
+    },
+    {
+      "id": "S218",
+      "title": "AG says army’s anti-kidnapping protocol balanced",
+      "url": "https://www.timesofisrael.com/ag-says-armys-anti-kidnapping-protocol-balanced/",
+      "type": "Times of Israel · 법무장관 설명 인용 보도",
+      "publishedAt": "2015-01-13"
+    },
+    {
+      "id": "S219",
+      "title": "What’s in a Name? Hannibal",
+      "url": "https://library.biblicalarchaeology.org/department/whats-in-a-name-hannibal/",
+      "type": "Biblical Archaeology Society · 공개 어원 설명 부분",
+      "publishedAt": "발행일 미표시"
+    },
+    {
+      "id": "S220",
+      "title": "Hadar Goldin and the Hannibal Directive",
+      "url": "https://www.newyorker.com/news/news-desk/hadar-goldin-hannibal-directive",
+      "type": "The New Yorker · 지침 명칭 관련 취재",
+      "publishedAt": "2014-08-06"
+    },
+    {
+      "id": "S221",
+      "title": "IDF Ordered Hannibal Directive on October 7 to Prevent Hamas Taking Soldiers Captive",
+      "url": "https://www.haaretz.com/israel-news/2024-07-07/ty-article-magazine/.premium/idf-ordered-hannibal-directive-on-october-7-to-prevent-hamas-taking-soldiers-captive/00000190-89a2-d776-a3b1-fdbe45520000",
+      "type": "Haaretz · 군 문서·증언 조사 보도 · 검색 색인·재인용 대조",
+      "publishedAt": "2024-07-07"
+    },
+    {
+      "id": "S222",
+      "title": "IDF officers invoked defunct Hannibal Protocol during Oct. 7 fighting – report",
+      "url": "https://www.timesofisrael.com/idf-officers-invoked-defunct-hannibal-protocol-during-oct-7-fighting-report/",
+      "type": "Times of Israel · Haaretz 조사 보도 재인용",
+      "publishedAt": "2024-07-07"
+    },
+    {
+      "id": "S223",
+      "title": "Epstein files · Data Set 1 · EFTA00001970",
+      "url": "https://www.justice.gov/epstein/files/DataSet%201/EFTA00001970.pdf",
+      "type": "미 법무부 공개 파일 · 식별자 검색 색인 확인 · 원본 열람은 연령 확인 화면",
+      "publishedAt": "공개일 직접 확인하지 못함"
+    },
+    {
+      "id": "S224",
+      "title": "EFTA00001970 · 옷장과 Israel Defense Forces 문양 상의 사진",
+      "url": "https://commons.wikimedia.org/wiki/File:EFTA00001970_-_Wooden_closet_filled_with_neatly_folded_white_and_light_blue_towels_and_a_green_Israel_Defense_Forces_sweatshirt.jpg",
+      "type": "Wikimedia Commons · FBI 사진으로 기재된 공개 사본 · 이미지 직접 대조",
+      "publishedAt": "2025-12-22 사본 업로드"
+    },
+    {
+      "id": "S225",
+      "title": "Doe v. United States · 9:08-cv-80736 · Document 361-46 · PDF 21/24쪽",
+      "url": "https://www.justice.gov/multimedia/Court%20Records/Doe%20v.%20United%20States%2C%20No.%20908-cv-80736%20%28S.D.%20Fla.%202008%29/361-46.pdf",
+      "type": "미 법무부 공개 법원 제출자료 · 변호인 서신 · 검색 색인 본문 확인",
+      "publishedAt": "2007-07-06 서신 / 2016-02-10 법원 등록"
+    },
+    {
+      "id": "S226",
+      "title": "Ariane de Rothschild · Governance",
+      "url": "https://www.edmond-de-rothschild.com/en/governance/ariane-de-rothschild",
+      "type": "Edmond de Rothschild 공식 경영진 약력",
+      "publishedAt": "발행일 미표시 · 2026-09-18 확인"
+    },
+    {
+      "id": "S227",
+      "title": "The Rothschild Family Index · Genealogy",
+      "url": "https://www.rothschildarchive.org/genealogy/",
+      "type": "Rothschild Archive · 가족 계보 · 관련 부모·자녀·혼인 항목 확인",
+      "publishedAt": "발행일 미표시"
+    },
+    {
+      "id": "S228",
+      "title": "Betty von Rothschild (1805–1886)",
+      "url": "https://family.rothschildarchive.org/people/33-betty-von-rothschild-1805-1886",
+      "type": "Rothschild Archive · 베티 약력 · 검색 색인 확인",
+      "publishedAt": "발행일 미표시"
+    },
+    {
+      "id": "S229",
+      "title": "EFTA02608241 · 2018-12-31 이메일 전사",
+      "url": "https://yirah.fi/epstein/en/document/EFTA02608241",
+      "type": "공개 문서 자동 추출 전사 · 발신자·서명·인용 계층 대조 · 원본 자체 아님",
+      "publishedAt": "2018-12-31 이메일"
+    },
+    {
+      "id": "S230",
+      "title": "Epstein belgelerinde doğru ve yanlışlar · Rothschild ve Hitler iddiaları",
+      "url": "https://tr.euronews.com/2026/02/02/epstein-belgelerinde-dogru-ve-yanlislar-yamyamlik-pandemi-gates-rothschild-ve-hitler-iddia",
+      "type": "Euronews · EFTA02608241 맥락 검토",
+      "publishedAt": "2026-02-02"
+    },
+    {
+      "id": "S231",
+      "title": "Epstein files · Data Set 11 · EFTA02608241",
+      "url": "https://www.justice.gov/epstein/files/DataSet%2011/EFTA02608241.pdf",
+      "type": "미 법무부 원문 위치 · 원본 직접 열람 실패 · 공개 전사와 문서 검토 보도로 대조",
+      "publishedAt": "2018-12-31 이메일"
+    },
+    {
+      "id": "S232",
+      "title": "Palais Epstein: Architectural Jewel on the Ring Road",
+      "url": "https://www.parlament.gv.at/en/experience/the-building/palais-epstein",
+      "type": "오스트리아 의회 공식 건물·가문 연혁",
+      "publishedAt": "발행일 미표시"
+    },
+    {
+      "id": "S233",
+      "title": "Art Restitution Advisory Board · Alphonse and Clarice Rothschild",
+      "url": "https://provenienzforschung.gv.at/beiratsbeschluesse/Rothschild_Alphonse_Clarice_2022-03-30_english.pdf",
+      "type": "오스트리아 반환자문위원회 결정문 · 정부 사이트 게재 영문 비공식 번역 · 2–3쪽",
+      "publishedAt": "2022-03-30"
+    },
+    {
+      "id": "S234",
+      "title": "Der junge Hitler · 전시 보도자료",
+      "url": "https://www.nordico.at/assets/media/Der_junge_Hitler_Presseunterlage_DE.pdf",
+      "type": "NORDICO Stadtmuseum Linz · 전시 연구 자료 · PDF 6–7쪽",
+      "publishedAt": "2021-04-15"
+    },
+    {
+      "id": "S235",
+      "title": "Final Report of the Independent Counsel for Iran/Contra Matters · Part I",
+      "url": "https://irp.fas.org/offdocs/walsh/part_i.htm",
+      "type": "월시 특별검사 최종보고서 · FAS 재게시 · 1986년 2월 무기 거래 및 7월 자금 회수 기록",
+      "publishedAt": "1993"
+    },
+    {
+      "id": "S236",
+      "title": "Bill Clinton: ‘Policy Matters’ Despite Being Misunderstood, Distrusted",
+      "url": "https://www.georgetown.edu/news/bill-clinton-policy-matters-despite-being-misunderstood-distrusted/",
+      "type": "조지타운대학교 공식 강연 보도",
+      "publishedAt": "2014-04 · 상단 20일 / 본문 30일"
+    },
+    {
+      "id": "S237",
+      "title": "Joint Statement Between the Kingdom of Saudi Arabia and the United States of America",
+      "url": "https://trumpwhitehouse.archives.gov/briefings-statements/joint-statement-kingdom-saudi-arabia-united-states-america/",
+      "type": "백악관 보존기록 · 양국 공동성명",
+      "publishedAt": "2017-05"
+    },
+    {
+      "id": "S238",
+      "title": "President Trump and King Salman Sign Arms Deal",
+      "url": "https://trumpwhitehouse.archives.gov/articles/president-trump-king-salman-sign-arms-deal/",
+      "type": "백악관 보존기록 · 당시 발표",
+      "publishedAt": "2017-05-20"
+    },
+    {
+      "id": "S239",
+      "title": "Timeline · 2017 Las Vegas shooting",
+      "url": "https://www.fbi.gov/history/timeline",
+      "type": "FBI 공식 연혁 · 2017년 사건 및 2019년 수사 결론",
+      "publishedAt": "발행일 미표시"
+    },
+    {
+      "id": "S240",
+      "title": "King forms supreme committee to tackle corruption",
+      "url": "https://saudigazette.com.sa/article/521063/SAUDI-ARABIA/King-forms-supreme-committee-to-tackle-corruption",
+      "type": "Saudi Gazette · 위원회 설치 왕령 보도",
+      "publishedAt": "2017-11-04"
+    },
+    {
+      "id": "S241",
+      "title": "The Kingdom of Saudi Arabia’s Anti-Corruption Proceeding’s Status",
+      "url": "https://www.prnewswire.com/news-releases/the-kingdom-of-saudi-arabias-anti-corruption-proceedings-status-300553484.html",
+      "type": "주미 사우디대사관 배포 검찰총장 성명 · PR Newswire 게재 · 당국 발표",
+      "publishedAt": "2017-11-09"
+    },
+    {
+      "id": "S242",
+      "title": "The Daily Diary of President George W. Bush · September 11, 2001",
+      "url": "https://www.georgewbushlibrary.gov/sites/default/files/2020-07/t003-026-09112001-20140158f.pdf",
+      "type": "조지 W. 부시 대통령도서관 · 대통령 업무일지 · 09:05 항목 검색 색인 대조",
+      "publishedAt": "2001-09-11"
+    },
+    {
+      "id": "S243",
+      "title": "How Many People did the Nazis Murder?",
+      "url": "https://encyclopedia.ushmm.org/content/en/article/documenting-numbers-of-victims-of-the-holocaust-and-nazi-persecution",
+      "type": "미국 홀로코스트기념박물관 · 사료·인구통계에 근거한 피해 집계",
+      "publishedAt": "발행일 미표시"
+    },
+    {
+      "id": "S244",
+      "title": "Federal Reserve Act Signed into Law",
+      "url": "https://www.federalreservehistory.org/essays/federal-reserve-act-signed",
+      "type": "Federal Reserve History · 캔자스시티 연방준비은행 직원 집필",
+      "publishedAt": "1913-12-23 사건 · 발행일 미표시"
+    },
+    {
+      "id": "S245",
+      "title": "Who owns the Bank of England?",
+      "url": "https://www.bankofengland.co.uk/explainers/who-owns-the-bank-of-england",
+      "type": "잉글랜드은행 공식 소유구조 설명",
+      "publishedAt": "발행일 미표시"
+    },
+    {
+      "id": "S246",
+      "title": "FAQs · NIST WTC Towers Investigation",
+      "url": "https://www.nist.gov/world-trade-center-investigation/study-faqs/wtc-towers-investigation",
+      "type": "미국 국립표준기술연구소 · 쌍둥이 빌딩 조사 FAQ · 28–29번 포함",
+      "publishedAt": "발행일 미표시"
+    }
+  ]
+}
