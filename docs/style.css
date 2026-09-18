@@ -15,3 +15,6 @@
 @media(max-width:600px){.header{height:auto;min-height:70px;flex-wrap:wrap;padding:12px 16px}}
 
 @media(min-width:601px) and (max-width:1180px){.header-title{display:none}}
+
+/* Spaced, paginated knowledge map. */
+.graph-nav{display:flex;align-items:center;gap:8px;padding:0 22px 12px;min-height:42px;font-size:12px;color:var(--muted)}.graph-nav span{flex:1}.graph-nav button{border:1px solid var(--line);border-radius:6px;padding:7px 10px}.graph-nav button:disabled{opacity:.3}.graph-nav [hidden]{display:none}.node-card{fill:#141d29;stroke:#344356;stroke-width:1}.graph-node:hover .node-card,.graph-node:focus-visible .node-card{fill:#202e40;stroke:#8fa4c0}.graph-node.selected .node-card{fill:#202e28;stroke:var(--accent);stroke-width:1.5}.graph-node text{stroke:none;fill:#dce5ef}.graph-node.topic text{font-weight:500}.graph-node .topic-count{text-anchor:end;fill:#95a2b5}.graph-edge.related{opacity:.16}.graph-edge.highlight{opacity:.55}.outline-button:disabled{opacity:.4}.graph-node.selected .node-ring{opacity:0}@media(max-width:600px){.graph-nav{padding:0 16px 10px;font-size:11px}}

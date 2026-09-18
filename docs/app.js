@@ -1,6 +1,6 @@
 const $ = selector => document.querySelector(selector);
 const NS = 'http://www.w3.org/2000/svg';
-const state = {topic:null,query:'',selected:null,showLinks:false,visible:[],camera:{x:0,y:0,k:1}};
+const state = {topic:null,query:'',selected:null,showLinks:false,page:0,viewKey:'',visible:[],camera:{x:0,y:0,k:1}};
 let graph,knowledge,sources,posts,topics,knowledgeMap,sourceMap,postMap,positions=new Map();
 const categories={verified:'확인된 정보'};
 const colors={verified:'#c6f28a'};
@@ -36,6 +36,7 @@ function matches(node){
  return node.category==='verified'&&(!state.topic||node.topicId===state.topic)&&(!q||haystack.includes(q));
 }
 function render(){
+ const key=`${state.topic}|${state.query}`;if(state.viewKey!==key){state.page=0;state.viewKey=key;}
  state.visible=knowledge.filter(matches);
  const topicBox=$('#topics');topicBox.replaceChildren();
  const all=el('button','','전체 주제');all.setAttribute('aria-pressed',String(!state.topic));all.onclick=()=>{state.topic=null;render();};topicBox.append(all);
@@ -53,7 +54,7 @@ function render(){
 function select(id,{reveal=false,scroll=true,history=true}={}){
  const n=knowledgeMap.get(id);if(!n)return;
  state.selected=id;
- if(reveal){state.topic=null;state.query='';$('#search').value='';render();}else{updateHighlight();showDetail();document.querySelectorAll('#node-list button').forEach(b=>b.classList.toggle('selected',b.dataset.id===id));}
+ if(reveal||!positions.has(id)){if(reveal){state.query='';$('#search').value='';}state.topic=n.topicId;state.viewKey=`${state.topic}|${state.query}`;state.page=Math.max(0,Math.floor(knowledge.filter(matches).findIndex(k=>k.id===id)/pageSize()));render();}else{updateHighlight();showDetail();document.querySelectorAll('#node-list button').forEach(b=>b.classList.toggle('selected',b.dataset.id===id));}
  if(history)window.history.replaceState(null,'',`#${encodeURIComponent(id)}`);
  if(scroll&&window.innerWidth<=940)$('#detail').scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth',block:'start'});
 }
@@ -80,36 +81,28 @@ function showDetail(){
  const original=el('details');original.append(el('summary','',`수집 원문 ${n.postIds.length}개`));for(const id of n.postIds){const p=postMap.get(id);const a=link(p.url,'post-link');a.textContent=`${id} · ${p.title} ↗`;original.append(a);}panel.append(original);
  panel.scrollTop=0;
 }
+function pageSize(){
+ const host=$('#graph-host');return Math.max(1,Math.min(4,Math.floor(host.clientWidth/250)))*Math.max(2,Math.floor((host.clientHeight-70)/112));
+}
 function layout(){
  const host=$('#graph-host'),w=host.clientWidth,h=host.clientHeight;
- const activeTopics=topics.filter(t=>state.visible.some(n=>n.topicId===t.id));
- // Deterministic positions keep the same data reproducible; no remote layout service.
- const largest=Math.max(0,...activeTopics.map(t=>state.visible.filter(n=>n.topicId===t.id).length));
- const expanded=activeTopics.length===1&&largest>24;
- const gridCols=Math.ceil(Math.sqrt(largest));
- const W=Math.max(w,800,expanded?gridCols*160+100:0),H=Math.max(h,660,expanded?Math.ceil(largest/gridCols)*85+170:0),nodes=[];
- activeTopics.forEach((t,i)=>{
-  const cols=activeTopics.length<=2?activeTopics.length:2;
-  const rows=Math.ceil(activeTopics.length/cols);
-  const tx=W*(.23+(i%cols)*.53),ty=H*((Math.floor(i/cols)+.5)/rows);
-  nodes.push({id:t.id,type:'topic',x:tx,y:ty,ax:tx,ay:ty});
-  const members=state.visible.filter(n=>n.topicId===t.id);
-  // Large collections open from their topic hub instead of crowding the overview.
-  if(members.length>24&&activeTopics.length>1)return;
-  if(expanded){
-   Object.assign(nodes[nodes.length-1],{x:W/2,y:55,ax:W/2,ay:55});
-   members.forEach((n,j)=>{const x=100+(j%gridCols)*160,y=145+Math.floor(j/gridCols)*85;nodes.push({id:n.id,type:'knowledge',x,y,ax:x,ay:y});});
-   return;
-  }
-  members.forEach((n,j)=>{const angle=j*2*Math.PI/members.length+.45;const radius=members.length>8?135:105;nodes.push({id:n.id,type:'knowledge',x:tx+Math.cos(angle)*radius,y:ty+Math.sin(angle)*radius,ax:tx+Math.cos(angle)*radius,ay:ty+Math.sin(angle)*radius});});
- });
- for(let iteration=0;iteration<200;iteration++){
-  for(let i=0;i<nodes.length;i++)for(let j=i+1;j<nodes.length;j++){
-   const a=nodes[i],b=nodes[j];let dx=b.x-a.x,dy=b.y-a.y;if(Math.abs(dx)<135&&Math.abs(dy)<56){if(!dx)dx=.1;if(!dy)dy=.1;const pushX=135-Math.abs(dx),pushY=56-Math.abs(dy);if(pushX<pushY*1.8){const p=Math.sign(dx)*pushX*.2;a.x-=p;b.x+=p;}else{const p=Math.sign(dy)*pushY*.23;a.y-=p;b.y+=p;}}
-  }
-  for(const n of nodes){const pull=n.type==='topic'?.06:.012;n.x+=(n.ax-n.x)*pull;n.y+=(n.ay-n.y)*pull;n.x=Math.max(78,Math.min(W-78,n.x));n.y=Math.max(38,Math.min(H-62,n.y));}
- }
- positions=new Map(nodes.map(n=>[n.id,n]));state.world={width:W,height:H};fit();$('#graph').dataset.layoutWidth=String(w);
+ const overview=!state.topic&&!state.query;
+ const items=overview?topics.filter(t=>state.visible.some(n=>n.topicId===t.id)):state.visible;
+ const cols=Math.max(1,Math.min(4,Math.floor(w/250))),size=pageSize();
+ const pages=Math.max(1,Math.ceil(items.length/size));state.page=Math.min(state.page,pages-1);
+ const shown=items.slice(state.page*size,(state.page+1)*size);
+ const rows=Math.ceil(shown.length/cols),W=Math.max(w,cols*250),H=Math.max(h,rows*112+70);
+ positions=new Map(shown.map((n,i)=>[n.id,{id:n.id,type:overview?'topic':'knowledge',x:W/2+(i%cols-(cols-1)/2)*250,y:Math.max(60,(H-rows*112)/2+40)+Math.floor(i/cols)*112}]));
+ state.world={width:W,height:H};
+ $('#graph-page').textContent=overview?`주제 선택 · ${state.page+1} / ${pages}페이지`:(shown.length?`${state.page*size+1}–${state.page*size+shown.length} / ${items.length}개`:'검색 결과 없음');
+ $('#page-prev').disabled=state.page===0;$('#page-next').disabled=state.page>=pages-1;
+ $('#map-back').hidden=overview;
+ $('#toggle-links').disabled=overview;
+ $('#graph-count').textContent=overview?`${items.length}개 주제 · ${state.visible.length}개 지식`:`${state.visible.length}개 지식`;
+ fit();$('#graph').dataset.layoutWidth=String(w);
+}
+function labelLines(text,max=16){
+ const chars=Array.from(text),lines=[];while(chars.length&&lines.length<2)lines.push(chars.splice(0,max).join(''));if(chars.length)lines[1]=lines[1].slice(0,-1)+'…';return lines;
 }
 function fit(){
  const host=$('#graph-host');if(!state.world)return;
@@ -124,11 +117,12 @@ function draw(){
   const n=p.type==='topic'?topics.find(t=>t.id===p.id):knowledgeMap.get(p.id);const r=p.type==='topic'?11:6;
   const g=svg('g',{class:`graph-node ${p.type}`,transform:`translate(${p.x},${p.y})`,tabindex:'0',role:'button','aria-label':p.type==='topic'?`${n.label} 주제 선택`:`${n.title}, ${n.status}`,'data-id':p.id});
   const color=p.type==='topic'?n.color:colors[n.category];
-  g.append(svg('circle',{r:22,fill:'transparent'}),svg('circle',{r:r+7,class:'node-ring'}),svg('circle',{r,fill:color,stroke:color,'stroke-width':1,'fill-opacity':p.type==='topic'?.16:.9}));
+  g.append(svg('rect',{x:-116,y:-28,width:232,height:92,rx:12,class:'node-card'}),svg('circle',{r:22,fill:'transparent'}),svg('circle',{r:r+7,class:'node-ring'}),svg('circle',{r,fill:color,stroke:color,'stroke-width':1,'fill-opacity':p.type==='topic'?.16:.9}));
   if(p.type==='topic')g.append(svg('circle',{r:3,fill:color}));
-  const text=svg('text',{y:r+20});
-  const hiddenMembers=p.type==='topic'?state.visible.filter(k=>k.topicId===n.id&&!positions.has(k.id)).length:0;
-  text.textContent=p.type==='topic'?`${n.label}${hiddenMembers?` · ${hiddenMembers}개 펼치기`:''}`:n.title.replace(/ · 2010 명단$/,'');g.append(text);
+  const text=svg('text',{y:24});
+  const label=p.type==='topic'?n.label:n.title;
+  labelLines(label).forEach((line,i)=>{const span=svg('tspan',{x:0,dy:i?19:0});span.textContent=line;text.append(span);});g.append(text);
+  if(p.type==='topic'){const count=svg('text',{x:95,y:-9,class:'topic-count'});count.textContent=state.visible.filter(k=>k.topicId===n.id).length+'개';g.append(count);}
   const title=svg('title',{});title.textContent=p.type==='topic'?n.label:`${n.id} · ${n.claim} [${n.status}]`;g.append(title);
   const activate=()=>{if(p.type==='topic'){state.topic=state.topic===n.id?null:n.id;render();}else select(n.id);};
   g.addEventListener('click',()=>{if(!dragMoved)activate();});g.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();activate();}});nodeGroup.append(g);
@@ -142,7 +136,7 @@ function updateHighlight(){
  const group=$('#edges');group.querySelectorAll('.related').forEach(e=>e.remove());
  for(const e of graph.edges.filter(e=>e.type!=='topic'&&positions.has(e.source)&&positions.has(e.target)&&(state.showLinks||e.source===state.selected||e.target===state.selected))){const a=positions.get(e.source),b=positions.get(e.target);const line=svg('line',{x1:a.x,y1:a.y,x2:b.x,y2:b.y,class:`graph-edge related ${e.source===state.selected||e.target===state.selected?'highlight':''}`});const title=svg('title',{});title.textContent=`${e.label}: ${e.basis.join(', ')}`;line.append(title);group.append(line);}
 }
-function applyCamera(){const c=state.camera;$('#viewport').setAttribute('transform',`translate(${c.x},${c.y}) scale(${c.k})`);$('#graph').classList.toggle('overview',innerWidth<=600&&c.k<.75);document.querySelectorAll('.graph-node text').forEach(t=>t.style.fontSize=`${(t.parentElement.classList.contains('topic')?14:12)/c.k}px`);}
+function applyCamera(){const c=state.camera;$('#viewport').setAttribute('transform',`translate(${c.x},${c.y}) scale(${c.k})`);document.querySelectorAll('.graph-node text').forEach(t=>t.style.fontSize=t.classList.contains('topic-count')?'11px':'13px');}
 function zoom(factor,cx=$('#graph-host').clientWidth/2,cy=$('#graph-host').clientHeight/2){const c=state.camera,k=Math.max(.25,Math.min(3.5,c.k*factor));const ratio=k/c.k;state.camera={x:cx-(cx-c.x)*ratio,y:cy-(cy-c.y)*ratio,k};applyCamera();}
 let dragging=null,dragMoved=false;
 $('#graph').addEventListener('pointerdown',e=>{if(e.button!==0)return;dragging={x:e.clientX,y:e.clientY,startX:e.clientX,startY:e.clientY};dragMoved=false;});
@@ -151,6 +145,9 @@ window.addEventListener('pointerup',()=>{dragging=null;});window.addEventListene
 $('#graph').addEventListener('wheel',e=>{e.preventDefault();const rect=$('#graph').getBoundingClientRect();zoom(Math.exp(-e.deltaY*.0015),e.clientX-rect.left,e.clientY-rect.top);},{passive:false});
 $('#zoom-in').onclick=()=>zoom(1.25);$('#zoom-out').onclick=()=>zoom(.8);$('#fit').onclick=fit;
 $('#toggle-links').onclick=()=>{if(!graph)return;state.showLinks=!state.showLinks;$('#toggle-links').setAttribute('aria-pressed',String(state.showLinks));updateHighlight();};
+$('#page-prev').onclick=()=>{state.page--;render();};
+$('#page-next').onclick=()=>{state.page++;render();};
+$('#map-back').onclick=()=>{state.topic=null;state.query='';$('#search').value='';render();};
 $('#search').addEventListener('input',e=>{if(!graph)return;state.query=e.target.value;render();});
 $('#reset-filters').onclick=()=>{if(!graph)return;state.topic=null;state.query='';$('#search').value='';render();};
 window.addEventListener('keydown',e=>{if(e.key==='/'&&!['INPUT','TEXTAREA'].includes(document.activeElement.tagName)){e.preventDefault();$('#search').focus();}});

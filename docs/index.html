@@ -34,6 +34,7 @@
     </aside>
     <section class="graph-section" aria-label="지식 연결 그래프">
       <div class="graph-heading"><div><span class="eyebrow">KNOWLEDGE GRAPH</span><h2>지식 지도 <span id="graph-count">—</span></h2></div><button id="toggle-links" class="outline-button" aria-pressed="false">출처 연결 보기</button></div>
+      <div class="graph-nav"><button id="map-back" hidden>← 전체 주제</button><span id="graph-page" aria-live="polite"></span><button id="page-prev" aria-label="이전 페이지">←</button><button id="page-next" aria-label="다음 페이지">→</button></div>
       <div id="graph-host" class="graph-host">
         <svg id="graph" aria-label="주제와 지식 노드. 노드를 클릭하거나 Tab과 Enter로 상세 내용을 확인하세요." role="group"><g id="viewport"><g id="edges"></g><g id="nodes"></g></g></svg>
         <div id="message" class="message" role="status"><span class="spinner"></span>지식 지도를 불러오고 있습니다.</div>
